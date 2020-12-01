@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文档 on -_-</title>
+    <link>http://zhuangrb.github.io/docs/</link>
+    <description>Recent content in 文档 on -_-</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://zhuangrb.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://zhuangrb.github.io/docs/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://zhuangrb.github.io/docs/docker/</guid>
+      <description>DOCKER #  docker历史 #   docker与虚拟机的区别 #   物理机
+类比：别墅，独立花园 虚拟机
+类比：小区套房，共享花园，独立卫生间 docker
+类比：胶囊房，共享花园，共享卫生间，独立床位   VM实现是使用虚拟化引擎虚拟硬件层；运行程序需要安装完整镜像的操作系统；
+docker实现是居于操作系统之下；
+linux为例：使用linux下namespace与cgroup方式实现,
+ps axf sudo unshare --fork --pid --mount-proc=/proc /bin/sh ps axf  docker核心与概念知识 #   镜像 容器 数据券 网络管理 网络安全 Dockerfile   docker三剑客 #   docker-compose machine swarm   php7(phalcon)+nginx+mysql #   docker docker-compose  </description>
+    </item>
+    
+  </channel>
+</rss>
