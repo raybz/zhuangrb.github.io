@@ -5,14 +5,15 @@
     <link>http://zhuangrb.github.io/docs/</link>
     <description>Recent content in 文档 on -_-</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://zhuangrb.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://zhuangrb.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Docker内部分享</title>
       <link>http://zhuangrb.github.io/docs/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>http://zhuangrb.github.io/docs/docker/</guid>
-      <description>DOCKER #  Docker是什么 #  Docker 是一个开放源码的软件，是一個开放平台，用于开发应用、交付（shipping）应用、运行应用。 Docker允许用户将应用单独分割出来，形成更小的颗粒（容器），从而提高交付软件的速度。
+      <description>DOCKER #  Docker是什么 #  Docker 是一个开放源码的软件，是一個开放平台，用于开发应用、交付应用、运行应用。 Docker允许用户将应用单独分割出来，形成更小的颗粒（容器），从而提高交付软件的速度。
  Docker与虚拟机的区别 #  Docker容器与虚拟机类似，但二者在原理上不同。容器是将操作系统层虚拟化，虚拟机则是虚拟化硬件，因此容器更具有便携性、高效地利用服务器。 容器更多的用于表示软件的一个标准化单元。由于容器的标准化，因此它可以无视操作系统的差异，部署到任何一个地方。另外，Docker也为容器提供更强的业界的隔离兼容。而虚拟机实现是使用虚拟化引擎虚拟硬件层，运行程序需要安装完整镜像的操作系统；
 直观类比： #   物理机
 类比：别墅，独立花园 虚拟机

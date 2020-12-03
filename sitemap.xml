@@ -3,23 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://zhuangrb.github.io/docs/docker/</loc>
+    <loc>http://zhuangrb.github.io/categories/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://zhuangrb.github.io/categories/</loc>
+    <loc>http://zhuangrb.github.io/tags/docker/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zhuangrb.github.io/categories/docker/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zhuangrb.github.io/tags/docker-compose/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zhuangrb.github.io/docs/docker/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://zhuangrb.github.io/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://zhuangrb.github.io/tags/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://zhuangrb.github.io/docs/</loc>
+    <lastmod>2020-12-02T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

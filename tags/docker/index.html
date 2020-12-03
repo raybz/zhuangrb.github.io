@@ -6,19 +6,19 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Tags" />
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="docker" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://zhuangrb.github.io/tags/" />
+<meta property="og:url" content="http://zhuangrb.github.io/tags/docker/" />
 <meta property="og:updated_time" content="2020-12-02T00:00:00+00:00" />
-<title>Tags | -_-</title>
+<title>docker | -_-</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
 <script defer src="/en.search.min.6c8993c319f6028b4a2263e26207ffc091e13a5a1031af1d6338b345639d56bf.js" integrity="sha256-bImTwxn2AotKImPiYgf/wJHhOloQMa8dYzizRWOdVr8="></script>
 
 <script defer src="/sw.min.74a8bb07f0bee86d6bb9a2750f073f14d93c7e4512f28860370cfd879e9719b4.js" integrity="sha256-dKi7B/C&#43;6G1ruaJ1Dwc/FNk8fkUS8ohgNwz9h56XGbQ="></script>
-<link rel="alternate" type="application/rss+xml" href="http://zhuangrb.github.io/tags/index.xml" title="-_-" />
+<link rel="alternate" type="application/rss+xml" href="http://zhuangrb.github.io/tags/docker/index.xml" title="-_-" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -105,7 +105,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Tags</strong>
+  <strong>docker</strong>
 
   <label for="toc-control">
     
@@ -168,7 +168,7 @@ https://github.com/alex-shpak/hugo-book
   
   <article class="markdown book-post">
     <h2>
-      <a href="/tags/docker/">docker</a>
+      <a href="/docs/docker/">Docker内部分享</a>
     </h2>
     
   <h5>Dec 2, 2020</h5>
@@ -176,29 +176,32 @@ https://github.com/alex-shpak/hugo-book
 
 
   
-
+  <div>
+    
+      <a href="/categories/docker/">docker</a>
+  </div>
   
 
-
-    <p>
-    </p>
-  </article>
   
-  <article class="markdown book-post">
-    <h2>
+  <div>
+    
+      <a href="/tags/docker/">docker</a>, 
       <a href="/tags/docker-compose/">docker-compose</a>
-    </h2>
-    
-  <h5>Dec 2, 2020</h5>
-
-
-
-  
-
+  </div>
   
 
 
-    <p>
+    <p>DOCKER #  Docker是什么 #  Docker 是一个开放源码的软件，是一個开放平台，用于开发应用、交付应用、运行应用。 Docker允许用户将应用单独分割出来，形成更小的颗粒（容器），从而提高交付软件的速度。
+ Docker与虚拟机的区别 #  Docker容器与虚拟机类似，但二者在原理上不同。容器是将操作系统层虚拟化，虚拟机则是虚拟化硬件，因此容器更具有便携性、高效地利用服务器。 容器更多的用于表示软件的一个标准化单元。由于容器的标准化，因此它可以无视操作系统的差异，部署到任何一个地方。另外，Docker也为容器提供更强的业界的隔离兼容。而虚拟机实现是使用虚拟化引擎虚拟硬件层，运行程序需要安装完整镜像的操作系统；
+直观类比： #   物理机
+类比：别墅，独立花园 虚拟机
+类比：小区套房，共享花园，独立卫生间 docker
+类比：胶囊房，共享花园，共享卫生间，独立床位   Docker利用Linux核心下的下namespace与cgroup方式实现容器原理
+namespace: 隔离进程，网络，用户ID, 挂载
+cgroup: 隔离资源（CPU, 内存，I/O）
+ps axf sudo unshare --fork --pid --mount-proc=/proc /bin/sh ps axf  Docker核心与概念知识 #  DockerHub  https://hub.docker.com 国内节点：阿里，网易，daoclound 等 地址配置  镜像  # 镜像拉取 docker pull 镜像名称「:tag」 # 查看镜像 docker images # 删除镜像 docker rmi 镜像标记（镜像名称，哈希值，短哈希值） # 镜像导入导出 # 镜像名称修改 docker tag 镜像标记 镜像名称「:tag」 容器  # 查看容器 docker container ls # 删除容器 docker rm 容器标示 # 容器内执行 docker exec -it 容器 /bin/bash (i:inter t:termail) # 查看进程 docker ps -a # 查看日志 docker logs -f 容器ID （-f 等同于 tail） # 开启容器 docker start # 关闭容器 docker stop # 执行容器 docker run -v 本地数据卷:容器数据卷 -p 本地端口:容器端口 --name 容器名称[tag] -d 执行镜像 .
+        <a href="/docs/docker/">...</a>
+      
     </p>
   </article>
   
